@@ -7,4 +7,8 @@ class Classroom(models.Model):
 	year = models.IntegerField()
 
 	def get_absolute_url(self):
-		return reverse('classroom-detail', kwargs={'classroom_id':self.id})
+		return reverse('classroom-detail', kwargs={'classroom_id': self.id})
+
+
+class Student(models.Model):
+	pass
