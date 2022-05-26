@@ -1,5 +1,3 @@
-# Classrooms
-
 It's time to take your classroom management tool to the next level.
 
 ## Setup
