@@ -1,5 +1,4 @@
 from django.contrib.auth.models import User
-from django.test import TestCase
 from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
@@ -86,4 +85,4 @@ class ClassroomCRUDTest(APITestCase):
         id = 1
         response = self.client.delete(reverse("api-classroom-delete", args=[id]))
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
-        classroom_exists = Classroom.objects.filter(id=id).exists()
+        self.assertFalse(Classroom.objects.filter(id=id).exists())
