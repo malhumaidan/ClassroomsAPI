@@ -3,7 +3,7 @@ It's time to take your classroom management tool to the next level.
 ## Setup
 
 1. Fork and clone the project from [here](https://github.com/JoinCODED/ClassroomsAPI/).
-2. Create a `virtual environment`, activate it, and install the dependencies using `pip install -r requirements.lock`.
+2. Create a `virtual environment`, activate it, and install the dependencies using `pip install -r dev-requirements.lock`.
 
 ## Steps
 
